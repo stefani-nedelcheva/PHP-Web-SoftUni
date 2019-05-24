@@ -4,7 +4,6 @@ if (isset($_GET['input'])) {
 
     $input = $_GET['input'];
 
-    // регулярният израз в случая означава да сплитне по всичко различно от дума
     $input = array_filter(preg_split("/[^A-za-z]+/", $input, -1));
 
     foreach ($input as $item) {
