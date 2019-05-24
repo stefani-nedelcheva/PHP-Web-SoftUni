@@ -28,30 +28,4 @@ for ($row = 0; $row < count($matrix); $row++) {
 }
 
 echo "Min: $min" . PHP_EOL;
-echo "Max: $max";
-
-
-
-
-
-/* for ($i = 0; $i < 4; $i++) {
-      $arr[$i] = explode(', ', readline());
-      }
-
-      $max = null;
-      $min = null;
-
-      for ($i = 0; $i < count($arr); $i++) {
-      for ($j = 0; $j < count($arr[$i]); $j++) {
-      if ($max < $arr[$i][$j]) {
-      $max = $arr[$i][$j];
-      }
-      if ($min === null || $min > $arr[$i][$j]) {
-      $min = $arr[$i][$j];
-      }
-      }
-      }
-      echo "Min: $min" . PHP_EOL;
-      echo "Max: $max";
-     * 
-     */    
+echo "Max: $max";   
